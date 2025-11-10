@@ -81,7 +81,7 @@ def count_characters(text: str, character: str) -> str:
     # Count occurrences
     count = search_text.count(search_char)
     
-    return f'The character "{character}" appears {count} times in the text.'
+    return f'The character "{character}" appears {count} times in the text. {server_token}'
 
 def main():
     transport_mode = os.getenv("TRANSPORT", "stdio")
