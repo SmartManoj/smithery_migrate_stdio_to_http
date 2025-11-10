@@ -1,5 +1,7 @@
 # Python MCP Server with FastMCP
 
+[![smithery badge](https://smithery.ai/badge/@SmartManoj/smithery_migrate_stdio_to_http)](https://smithery.ai/server/@SmartManoj/smithery_migrate_stdio_to_http)
+
 A simple Python MCP server built using the official [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) and FastMCP. This example demonstrates how you can host streamable HTTP servers on Smithery, with STDIO support for backwards compatibility.
 
 See the complete guide: https://smithery.ai/docs/migrations/python-custom-container
